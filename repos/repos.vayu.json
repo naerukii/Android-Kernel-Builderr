@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "kernel_xiaomi_vayu",
-      "repo": "https://github.com/fajarnurmaulana/android_kernel_vayu",
-      "branch": "16",
+      "repo": "https://github.com/fajarnurmaulana/kernel_xiaomi_vayu_derp",
+      "branch": "16-derp",
       "device": "vayu",
       "defconfig": "vayu_defconfig"
     },
