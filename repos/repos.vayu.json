@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "kernel_xiaomi_vayu",
-      "repo": "https://github.com/chaldeaprjkt/kernel_xiaomi_vayu.git",
+      "repo": "https://github.com/fajarnurmaulana/kernel_xiaomi_vayu",
       "branch": "main",
       "device": "vayu",
       "defconfig": "vayu_defconfig"
@@ -21,6 +21,7 @@
     ],
     "ccache": true,
     "params": {
+      "CONFIG_NO_ERROR_ON_MISMATCH": "y"
       "ARCH": "arm64",
       "CC": "prelude-clang/bin/clang",
       "externalCommand": {
