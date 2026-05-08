@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Naeruki",
-      "repo": "https://github.com/tejas101k/kernel_xiaomi_vayu.git",
-      "branch": "sixteen",
+      "name": "kernel_xiaomi_vayu",
+      "repo": "https://github.com/chaldeaprjkt/kernel_xiaomi_vayu.git",
+      "branch": "main",
       "device": "vayu",
-      "defconfig": "vayu_user_defconfig"
+      "defconfig": "vayu_defconfig"
     },
     "kernelSU": {
       "withKernelSU": false,
