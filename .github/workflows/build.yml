@@ -57,7 +57,7 @@ jobs:
     steps:
       - name : "Clear All Action"
         run: |
-          sudo rm -rf ./out
+          
           sudo git clean -fdx
           sudo mrproper
 
