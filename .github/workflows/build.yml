@@ -314,7 +314,7 @@ jobs:
 
       - name: 🧧 Create GitHub Release => (${{ env.builddate }})
         continue-on-error: true
-        uses: softprops/action-gh-release@v4
+        uses: softprops/action-gh-release@v2
         if: ${{ env.useAnykernel == 'true' && env.release == 'true' }}
         with:
           tag_name: v${{ env.builddate }}.${{ github.run_number }}
