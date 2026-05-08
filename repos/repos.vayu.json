@@ -43,7 +43,7 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/Shuery-Shuai/AnyKernel3",
+      "repo": "https://github.com/fajarnurmaulana/AnyKernel3",
       "branch": "master"
     }
   } 
