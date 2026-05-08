@@ -21,7 +21,7 @@
     ],
     "ccache": true,
     "params": {
-      "CONFIG_NO_ERROR_ON_MISMATCH": "y"
+      "CONFIG_NO_ERROR_ON_MISMATCH": "y",
       "ARCH": "arm64",
       "CC": "prelude-clang/bin/clang",
       "externalCommand": {
