@@ -1,14 +1,14 @@
 [
   {
     "kernelSource": {
-      "name": "EtudeKernel-KernelSU-Next",
-      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_polaris",
-      "branch": "thirteen",
-      "device": "polaris",
-      "defconfig": "polaris_defconfig"
+      "name": "Naeruki",
+      "repo": "https://github.com/tejas101k/kernel_xiaomi_vayu.git",
+      "branch": "sixteen",
+      "device": "vayy",
+      "defconfig": "vayu_user_defconfig"
     },
     "kernelSU": {
-      "withKernelSU": true,
+      "withKernelSU": false,
       "kernelSUFork": "KernelSU-Next-SuSFS"
     },
     "toolchains": [
@@ -43,7 +43,7 @@
       "use": true,
       "release": true,
       "repo": "https://github.com/Shuery-Shuai/AnyKernel3",
-      "branch": "polaris"
+      "branch": "vayu"
     }
   },
   {
@@ -90,45 +90,6 @@
       "use": true,
       "release": true,
       "repo": "https://github.com/Shuery-Shuai/AnyKernel3",
-      "branch": "polaris"
+      "branch": "master"
     }
   },
-  {
-    "kernelSource": {
-      "name": "LineageKernel-KernelSU",
-      "repo": "https://github.com/LineageOS/android_kernel_xiaomi_sdm845",
-      "branch": "lineage-21",
-      "device": "polaris",
-      "defconfig": "vendor/xiaomi/polaris.config"
-    },
-    "withKernelSU": true,
-    "toolchains": [
-      {
-        "url": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
-        "branch": "master",
-        "name": "gas"
-      },
-      {
-        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone",
-        "branch": "18",
-        "name": "clang"
-      }
-    ],
-    "ccache": true,
-    "params": {
-      "ARCH": "arm64",
-      "CROSS_COMPILE": "aarch64-linux-gnu-",
-      "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
-      "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
-      "CLANG_TRIPLE": "aarch64-linux-gnu-",
-      "AR": "",
-      "CC": "clang"
-    },
-    "AnyKernel3": {
-      "use": true,
-      "release": true,
-      "repo": "https://github.com/Shuery-Shuai/AnyKernel3",
-      "branch": "polaris"
-    }
-  }
-]
