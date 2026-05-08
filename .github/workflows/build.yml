@@ -57,8 +57,6 @@ jobs:
     steps:
       - name : "Clear All Action"
         run: |
-          
-          sudo git clean -fdx
           sudo mrproper
 
       - name : "Free Disk"
