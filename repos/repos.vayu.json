@@ -5,7 +5,7 @@
       "repo": "https://github.com/fajarnurmaulana/android_kernel_vayu/",
       "branch": "16.2",
       "device": "vayu",
-      "defconfig": "vayu_defconfig"
+      "defconfig": "vayu_test_defconfig"
     },
     "kernelSU": {
       "withKernelSU": false,
