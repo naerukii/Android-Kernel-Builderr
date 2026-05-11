@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "kernel_xiaomi_vayu",
-      "repo": "https://github.com/fajarnurmaulana/android_kernel_vayu/",
+      "repo": "https://github.com/naerukii/android_kernel_vayu/",
       "branch": "16.2",
       "device": "vayu",
       "defconfig": "vayu_test_defconfig"
