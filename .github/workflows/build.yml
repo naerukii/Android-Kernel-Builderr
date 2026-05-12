@@ -214,9 +214,9 @@ jobs:
             echo "Installing KernelSU Next with SuSFS..."
             curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next-susfs/kernel/setup.sh" | bash -s next-susfs
           ;;
-          "RKSU")
+          "RESUKI")
             echo "Installing RKSU"
-            curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
+            curl -LSs "https://raw.githubusercontent.com/ReSukiSU/ReSukiSU/main/kernel/setup.sh" | bash
           ;;
           *)
             echo "Installing default KernelSU version..."
