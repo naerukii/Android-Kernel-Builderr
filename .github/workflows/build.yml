@@ -208,7 +208,7 @@ jobs:
           ;;
           "KernelSU-Next")
             echo "Installing KernelSU Next..."
-            curl -LSs "https://raw.githubusercontent.com/rifsxd/KernelSU-Next/next/kernel/setup.sh" | bash -
+            curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/next/kernel/setup.sh" | bash -s legacy
           ;;
           "KernelSU-Next-SuSFS")
             echo "Installing KernelSU Next with SuSFS..."
