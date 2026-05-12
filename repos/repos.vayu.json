@@ -8,8 +8,8 @@
       "defconfig": "vayu_defconfig"
     },
     "kernelSU": {
-      "withKernelSU": false,
-      "kernelSUFork": "RKSU"
+      "withKernelSU": true,
+      "kernelSUFork": "RESUKI"
     },
     "toolchains": [
       {
