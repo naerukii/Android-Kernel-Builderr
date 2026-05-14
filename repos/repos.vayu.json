@@ -1,14 +1,14 @@
 [
   {
     "kernelSource": {
-      "name": "kernel_xiaomi_vayu",
-      "repo": "https://github.com/naerukii/android_kernel_vayu/",
-      "branch": "uclamp",
+      "name": "aLn",
+      "repo": "https://github.com/naerukii/naeruki_vayu_kranul/tree/main",
+      "branch": "main",
       "device": "vayu",
-      "defconfig": "vayu_defconfig"
+      "defconfig": "vendor/vayu_final_defconfig"
     },
     "kernelSU": {
-      "withKernelSU": true,
+      "withKernelSU": false,
       "kernelSUFork": "KSU-Next"
     },
     "toolchains": [
