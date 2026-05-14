@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "aLn",
-      "repo": "https://github.com/naerukii/naeruki_vayu_kranul/tree/main",
+      "repo": "https://github.com/naerukii/naeruki_vayu_kranul.git",
       "branch": "main",
       "device": "vayu",
       "defconfig": "vendor/vayu_final_defconfig"
